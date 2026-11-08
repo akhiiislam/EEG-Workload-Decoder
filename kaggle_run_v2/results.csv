@@ -1,0 +1,7 @@
+config,split,bal_acc,auc,ece,ece_calibrated,bal_acc_calibrated
+bandpower_leaky,leaky,0.785,0.8687,0.0244,,
+bandpower_loso,loso,0.6571,0.7121,0.1359,,
+bandpower_subjz_loso,loso,0.7519,0.8351,0.0604,0.0242,0.7519
+riemann_leaky,leaky,0.9397,0.9845,0.0158,,
+riemann_loso,loso,0.6509,0.7045,0.2466,,
+bandpower_subjz_loso_no_frontal,loso,0.6978,0.7632,0.0625,,

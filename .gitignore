@@ -1,0 +1,9 @@
+# data is downloaded from PhysioNet (see download_data.py); not stored in git
+data/
+# local environment and tracking store
+.venv/
+mlflow.db
+mlruns/
+__pycache__/
+*.log
+results/results_pyriemann.csv

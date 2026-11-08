@@ -1,0 +1,2 @@
+{"n_windows": 2088, "n_subjects": 36, "note": "Metrics copied from the Kaggle run log (Version 2, ran successfully in 190.1 s). Figures are identical to the local run in results/.",
+ "params": {"dataset": "PhysioNet EEGMAT v1.0.0 (Kaggle: windwerfer/physionet-eegmat-mental-arithmetic)", "window_s": 4.0, "step_s": 2.0, "sfreq": 128, "band": "1-40 Hz"}}
