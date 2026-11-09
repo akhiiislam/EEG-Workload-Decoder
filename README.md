@@ -86,7 +86,7 @@ The equal rates in the first two rows are real, not a bug: per-person normalizat
 - Collecting EEG in a real human-robot task.
 
 ## Kaggle run
-- **Notebook:** https://www.kaggle.com/code/akhiislam/notebook9448d24e9c (private; Version 2 ran successfully in 190 s).
+- **Notebook:** [https://www.kaggle.com/code/akhiislam/notebook9448d24e9c](https://www.kaggle.com/code/akhiislam/eeg-decoder) (private; Version 2 ran successfully in 190 s).
 - **Input:** `windwerfer/physionet-eegmat-mental-arithmetic`, read-only.
 - **Result:** identical metrics to the local run. They are logged in MLflow as run `kaggle_run`.
 - **Riemannian step:** implemented with numpy/scipy, so no extra installs are needed: OAS covariance, then tangent space at the log-Euclidean mean of the training data.
