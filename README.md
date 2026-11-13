@@ -80,6 +80,9 @@ With 36 people and 1 minute per condition, the simple model is more accurate and
 
 The equal rates in the first two rows are real, not a bug: per-person normalization makes the rest and task score distributions nearly mirror images. They differ at other thresholds, for example 178 vs 187 at 0.6.
 
+## ROS 2 demo (`ros2_ws/`)
+A ROS 2 package, `eeg_workload_robot`, replays the calibrated decoder outputs in real time and drives simulated robots in turtlesim. A naive robot and a confidence-aware robot run side by side, and pen colours show their speed mode. Setup and run steps for Ubuntu are in [ros2_ws/README.md](ros2_ws/README.md).
+
 ## Remaining ideas
 - Riemannian re-centering per person.
 - Calibrating EEGNet with temperature scaling.

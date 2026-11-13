@@ -1,5 +1,5 @@
 # data is downloaded from PhysioNet (see download_data.py); not stored in git
-data/
+/data/
 # local environment and tracking store
 .venv/
 mlflow.db
@@ -7,3 +7,8 @@ mlruns/
 __pycache__/
 *.log
 results/results_pyriemann.csv
+
+# ROS 2 build outputs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
